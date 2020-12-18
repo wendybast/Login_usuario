@@ -55,6 +55,12 @@ public class CrearUsuario extends javax.swing.JFrame {
         Lemail.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         Lemail.setText("Email");
 
+        Username.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                UsernameActionPerformed(evt);
+            }
+        });
+
         Lemail1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         Lemail1.setText("DNI");
 
@@ -167,6 +173,10 @@ public class CrearUsuario extends javax.swing.JFrame {
         tabla.setVisible(true);
  
     }//GEN-LAST:event_BotonListadoActionPerformed
+
+    private void UsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UsernameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_UsernameActionPerformed
 
     /**
      * @param args the command line arguments
